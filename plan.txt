@@ -1,0 +1,27 @@
+Step 1. Make the schedule array
+
+[[1, 2, 3], [1, 2, 3], [2, 3, 4]]
+
+
+"pre": [["Geometry with Proof", "Dogs"], ["Phys 1"]],
+
+CLass a
+class b
+
+slot 1
+class a
+
+slot 2
+
+slot 1
+class b
+
+slot 2
+class a
+
+
+User inputs classes
+
+Generates string for each 'ideal' class that contains every pre req
+
+

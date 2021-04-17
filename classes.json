@@ -1,0 +1,312 @@
+{
+  "Algebra 1": {
+    "name": "Algebra 1",
+    "pre": [[0]],
+    "con": [0],
+    "post": ["Geometry with Proof", "Geometry with Algebra"],
+    "credits": ["Math"],
+    "gradeReq": 0,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Geometry with Proof": {
+    "name": "Geometry with Proof",
+    "pre": [["Algebra 1"]],
+    "con": [0],
+    "post": ["Algebra 2", "Algebra 2 with Trigonometry"],
+    "credits": ["Math"],
+    "gradeReq": 9,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "Geometry with Algebra": {
+    "name": "Geometry with Algebra",
+    "pre": [["Algebra 1"]],
+    "con": [0],
+    "post": ["Algebra 2", "Algebra 2 Foundations"],
+    "credits": ["Math"],
+    "gradeReq": 9,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "Algebra 2 with Trigonometry": {
+    "name": "Algebra 2 with Trigonometry",
+    "pre": [["Geometry with Proof"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Math"],
+    "gradeReq": 9,
+    "prestige" : 6,
+    "sem": "year"
+  },
+  "Algebra 2": {
+    "name": "Algebra 2",
+    "pre": [["Geometry with Proof", "Geometry with Algebra"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Math"],
+    "gradeReq": 9,
+    "prestige" : 5,
+    "sem": "year"
+  },
+  "Algebra 2 Foundations": {
+    "name": "Algebra 2 Foundations",
+    "pre": [["Geometry with Algebra"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Math"],
+    "gradeReq": 9,
+    "prestige" : 4,
+    "sem": "year"
+  },
+  "Precalculus with Calculus": {
+    "name": "Precalculus with Calculus",
+    "pre": [["Algebra 2 with Trigonometry"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Math"],
+    "prestige" : 10,
+    "gradeReq": 9,
+    "sem": "year"
+  },
+  "Precalculus with Analysis": {
+    "name": "Precalculus with Analysis",
+    "pre": [["Algebra 2"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Math"],
+    "prestige" : 9,
+    "gradeReq": 9,
+    "sem": "year"
+  },
+  "Precalculus with Statistics": {
+    "name": "Precalculus with Statistics",
+    "pre": [["Algebra 2", "Algebra 2 Foundations"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Math"],
+    "prestige" : 8,
+    "gradeReq": 9,
+    "sem": "year"
+  },
+  "Financial Mathematics": {
+    "name": "Financial Mathematics",
+    "pre": [["Algebra 2", "Algebra 2 Foundations"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Math"],
+    "prestige" : 7,
+    "gradeReq": 9,
+    "sem": "year"
+  },
+  "AP Calculus AB": {
+    "name": "AP Calculus AB",
+    "pre": [["Precalculus with Analysis"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Math"],
+    "prestige" : 13,
+    "gradeReq": 9,
+    "sem": "year"
+  },
+  "AP Calculus BC": {
+    "name": "AP Calculus BC",
+    "pre": [["Precalculus with Calculus", "AP Calculus AB"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Math"],
+    "prestige" : 14,
+    "gradeReq": 9,
+    "sem": "year"
+  },
+  "Calculus": {
+    "name": "Calculus",
+    "pre": [["Precalculus with Statistics", "Precalculus with Analysis"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Math"],
+    "prestige" : 11,
+    "gradeReq": 9,
+    "sem": "year"
+  },
+  "AP Statistics": {
+    "name": "AP Statistics",
+    "pre": [["Precalculus with Statistics", "Precalculus with Analysis", "Precalculus with Calculus", "Algebra 2", "Algebra 2 Foundations", "Algebra 2 with Trigonometry"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Math"],
+    "gradeReq": 9,
+    "prestige" : 12,
+    "sem": "year"
+  },
+  "Advanced Math Seminar": {
+    "name": "Advanced Math Seminar",
+    "pre": [["AP Calculus AB", "AP Calculus BC"]],
+    "con": ["AP Calculus BC"],
+    "post": [0],
+    "credits": ["Math"],
+    "prestige" : 15,
+    "gradeReq": 9,
+    "sem": "year"
+  },
+  "Science 9": {
+    "name": "Science 9",
+    "pre": [[0]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 9,
+    "prestige" : 1,
+    "sem": "year"
+  },
+  "Science 10": {
+    "name": "Science 10",
+    "pre": [["Science 9"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 10,
+    "prestige" : 2,
+    "sem": "year"
+  },
+  "AP Biology": {
+    "name": "AP Biology",
+    "pre": [["Science 10"], ["Algebra 2", "Algebra 2 with Trigonometry"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 9,
+    "prestige" : 4,
+    "sem": "year"
+  },
+  "AP Chemistry": {
+    "name": "AP Chemistry",
+    "pre": [["Science 10"], ["Algebra 2", "Algebra 2 with Trigonometry"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 9,
+    "prestige" : 4,
+    "sem": "year"
+  },
+  "AP Enviormental Science": {
+    "name": "AP Enviormental Science",
+    "pre": [["Science 10"], ["Algebra 2", "Algebra 2 with Trigonometry"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 9,
+    "prestige" : 4,
+    "sem": "year"
+  },
+  "AP Physics 1": {
+    "name": "AP Physics 1",
+    "pre": [["Algebra 2 with Trigonometry", "Precalculus with Analysis"]],
+    "con": ["Science 10"],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 9,
+    "prestige" : 3,
+    "sem": "year"
+  },
+  "AP Physics 2": {
+    "name": "AP Physics 2",
+    "pre": [["AP Physics 1"]],
+    "con": ["Precalculus with Analysis"],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 9,
+    "prestige" : 5,
+    "sem": "year"
+  },
+  "AP Physics C": {
+    "name": "AP Physics C",
+    "pre": [["AP Physics 1"]],
+    "con": ["AP Calculus AB", "AP Calculus BC"],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 9,
+    "prestige" : 5,
+    "sem": "year"
+  },
+  "Ecology: Enviormental Studies": {
+    "name": "Ecology: Enviormental Studies",
+    "pre": [["Science 10"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 9,
+    "prestige" : 4,
+    "sem": "first"
+  },
+  "Ecology: Expeditions": {
+    "name": "Ecology: Expeditions",
+    "pre": [["Ecology: Enviormental Studies"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 11,
+    "prestige" : 5,
+    "sem": "second"
+  },
+  "Topics in Biology: Modular Genetics": {
+    "name": "Topics in Biology: Modular Genetics",
+    "pre": [["Science 10"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 11,
+    "prestige" : 4,
+    "sem": "first"
+  },
+  "Topics in Biology: Evolutionary Biology": {
+    "name": "Topics in Biology: Evolutionary Biology",
+    "pre": [["Science 10"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 11,
+    "prestige" : 4,
+    "sem": "second"
+  },
+  "Topics in Chemistry: Modern Materials": {
+    "name": "Topics in Chemistry: Modern Materials",
+    "pre": [["Science 10"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 11,
+    "prestige" : 4,
+    "sem": "first"
+  },
+  "Topics in Chemistry: Synthesizing our Worlds": {
+    "name": "Topics in Chemistry: Synthesizing our Worlds",
+    "pre": [["Science 10"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 11,
+    "prestige" : 4,
+    "sem": "second"
+  },
+  "Topics in Physics: The Engineered Enviorment": {
+    "name": "Topics in Physics: The Engineered Enviorment",
+    "pre": [["Science 10"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 11,
+    "prestige" : 4,
+    "sem": "first"
+  },
+  "Topics in Physics: Modeling and Simulation": {
+    "name": "Topics in Physics: Modeling and Simulation",
+    "pre": [["Science 10"]],
+    "con": [0],
+    "post": [0],
+    "credits": ["Science"],
+    "gradeReq": 11,
+    "prestige" : 4,
+    "sem": "second"
+  }
+}
